@@ -1,0 +1,2 @@
+DECLARE @Query nvarchar(max)= N''
+SELECT * FROM sys.dm_exec_describe_first_result_set(@Query,NULL,0)
